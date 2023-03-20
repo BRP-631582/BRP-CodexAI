@@ -8,8 +8,8 @@ WORKDIR /app
 # Copy the application files into the working directory
 COPY . /app
 
-#Port 5000
-EXPOSE 5000
+#Port 8080
+EXPOSE 8080
 
 # Install the application dependencies
 RUN npm install
