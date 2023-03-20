@@ -15,4 +15,4 @@ EXPOSE 5000
 RUN npm install
 
 # Define the entry point for the container
-CMD ["npm", "server"]
+CMD ["npm", "start"]

@@ -84,7 +84,7 @@ const handleSubmit = async (e) => {
 
   //fetch data from server -> bot's response
 
-  const response = await fetch("https://brpcodex.herokuapp.com/", {
+  const response = await fetch("https://servercodex-bilardoraka64.b4a.run/", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
